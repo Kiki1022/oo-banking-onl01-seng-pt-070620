@@ -1,5 +1,4 @@
 
-require 'pry'
 class BankAccount
   
  attr_reader :name 
@@ -8,7 +7,6 @@ class BankAccount
     @name = name
     @balance = 1000
     @status = "open"
-    
   end
   
   def deposit(money)
